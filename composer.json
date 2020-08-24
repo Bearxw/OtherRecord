@@ -18,7 +18,7 @@
                 "Bearxw\\OtherRecord\\OtherRecordServiceProvider"
             ],
             "aliases": {
-                "OtherRecord": "Bearxw\\OtherRecord\\Facades\\Captcha"
+                "OtherRecord": "Bearxw\\OtherRecord\\Facades\\OtherRecord"
             }
         }
     }

@@ -11,7 +11,7 @@ class OtherRecord
 
      public function index()
      {
-         dd('test');
+         dd('test1111111');
      }
 
 

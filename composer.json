@@ -1,0 +1,26 @@
+{
+    "name": "administrator/otherrecord",
+    "authors": [
+        {
+            "name": "Bearxw",
+            "email": "765971163@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bearxw\\OtherRecord\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bearxw\\OtherRecord\\OtherRecordServiceProvider"
+            ],
+            "aliases": {
+                "OtherRecord": "Bearxw\\OtherRecord\\Facades\\Captcha"
+            }
+        }
+    }
+
+}
